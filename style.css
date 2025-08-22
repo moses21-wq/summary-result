@@ -1,0 +1,290 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color:  hsl(221, 100%, 96%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Hanken Grotesk", sans-serif;
+    
+
+}
+
+section {
+    height: 380px;
+    width: 280px;
+    background-color:hsl(241, 67%, 64%);
+    border-radius: 20px;
+    padding: 30px;
+}
+.circle {
+    height: 180px;
+    width: 180px;
+    background-color:  hsla(241, 71%, 40%, 0.8);
+    margin: 25px 50px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result {
+    /* color: hsl(221, 100%, 96%); */
+    text-align: center;
+    font-size: 19px;
+    padding: 0px;
+   color:  hsl(222, 37%, 93%);
+}
+section p{
+    color: white;
+    text-align: center;
+}
+.number {
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+    
+}
+.great {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+.test {
+    padding-top: 15px;
+   color:  hsl(222, 37%, 93%);
+}
+
+.second-container {
+    height: 380px;
+    width: 280px;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 20px;
+    position: relative;
+    right: 25px;
+    z-index: -1;
+    
+}
+.sum {
+    color: hsl(224, 30%, 27%);
+    text-align: justify;
+    padding-left: 30px;
+    font-weight: 700;
+
+}
+
+.first-background {
+    background-color: hsla(0, 100%, 67%,0.1);
+    height: 50px;
+    width: 250px;
+    margin-left: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+    gap: 10px;
+    margin-top: 20px;
+}
+.react {
+color:  hsl(0, 100%, 67%);
+font-weight: 700;
+padding-right: 70px;
+
+}
+.eight {
+    color:hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+
+.second-background {
+    background-color: hsla(39, 100%, 56%,0.1);
+    height: 50px;
+    width: 250px;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+    gap: 10px;
+
+}
+.men {
+color:  hsl(39, 100%, 56%);
+font-weight: 700;
+padding-right: 73px;
+
+}
+.nine {
+    color:hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+
+.third-background {
+    background-color: hsla(166, 100%, 37%,0.1);
+    height: 50px;
+    width: 250px;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+    gap: 10px;
+}
+.verb {
+color: hsl(166, 100%, 37%);
+font-weight: 700;
+padding-right: 91px;
+}
+
+.six {
+    color:hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+
+.fourth-background {
+    background-color: hsla(234, 85%, 45%, 0.1);
+    height: 50px;
+    width: 250px;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+    gap: 10px;
+     cursor: pointer;
+}
+
+.vid {
+color:  hsl(234, 85%, 45%);
+font-weight: 700;
+padding-right: 92px;
+}
+   
+.seven {
+    color:hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+
+button {
+  border: none; 
+  background-color:  hsl(224, 30%, 27%); 
+  color: white;
+  height: 50px;
+  width: 260px;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-weight: 700;
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
+  
+}
+/* 
+.continue:hover{
+    background-color: green !important; 
+} */
+
+button:hover{
+background-color: red !important;
+}
+span {
+    /* color:  hsl(220, 8%, 78%); */
+    color: hsl(223, 7%, 62%);
+
+}
+@media screen and (max-width: 802px) {
+    body {
+   
+        flex-direction: column;
+        justify-content: flex-start;
+
+}
+
+
+section {
+    position: relative;
+    right: 25px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    height: 270px;
+
+    
+    
+    
+}
+
+.second-container {
+       border-radius:0;
+       position: relative;
+    bottom: 25px;
+    
+    
+       
+}
+
+.sum {
+   
+    padding-left: 0px;
+    padding-top: 10px;
+        
+}
+.first-background {
+     margin-left: 0px;
+     width: 270px ;
+}
+
+.second-background {
+    margin-left: 0px;
+     width: 270px;
+}
+
+.third-background {
+    margin-left: 0px;
+     width: 270px;
+}
+.fourth-background {
+     margin-left: 0px;
+      width: 270px;
+}
+
+button {
+    margin-left: 0px;
+     width: 280px;
+}
+
+.circle {
+    height: 120px;
+    width: 120px;
+
+}
+   
+  
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
