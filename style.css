@@ -20,6 +20,7 @@ section {
     background-color:hsl(241, 67%, 64%);
     border-radius: 20px;
     padding: 30px;
+    color: brown;
 }
 .circle {
     height: 180px;
